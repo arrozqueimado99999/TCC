@@ -21,7 +21,7 @@ include "apagar.php";
                 <h4 class='card-tittle'>{$rw['titulo']}</h4>
                 <p class='card-text'>{$rw['texto']}</p>
                 <button class='btn btn-primary'>Ler mais</button>
-                <a class='btn href='apagar/{$codigo['codigo']}' btn-secondary'>Deletar</a>
+                <a class='btn btn-secondary' href='$_GET[codigo]'>Deletar</a>
                 </div>
                 </div>";
                 }
